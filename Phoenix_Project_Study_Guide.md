@@ -1,98 +1,106 @@
-# The Phoenix Project Participant Study Guide v2.0
+# The Phoenix Project Participant Lesson Book v3.0
 
-## 4-Week Brown-Bag Study Series
+## A 4-Week Study Guide for Applying DevOps, Flow, Feedback, and Continuous Learning
 
 **Book:** *The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win* by Gene Kim, Kevin Behr, and George Spafford  
 **Companion Reference:** *The Phoenix Project Resource Guide*  
+**Format:** Four weekly 60-minute brown-bag sessions  
 **Audience:** Project Managers, Product Owners, Developers, Business Analysts, Operations, Security, QA, Support, and Leaders  
-**Format:** Four weekly 60-minute discussion sessions  
-**Participant Goal:** Read, reflect, discuss, and identify one practical improvement you can apply in your role.
+**Participant Outcome:** Read the assigned chapters, connect the story to your role, and create one practical 30-day improvement proposal.
 
 ---
 
-## What Changed in Version 2.0
+## How This Lesson Book Is Different
 
-Version 2.0 adds concepts from the Resource Guide section of *The Phoenix Project*:
+This version is designed to read and function more like a real participant workbook. Instead of only listing questions, each week now includes:
 
-- Why DevOps matters as a business capability, not only an IT practice.
-- Clearer explanation of the Three Ways.
-- Stronger emphasis on the Four Types of Work.
-- More explicit treatment of WIP, queue time, and resource utilization.
-- DevOps myth-busting: DevOps does not replace Agile, ITIL, Operations, or security.
-- Stronger links to Continuous Delivery, Toyota Kata, Theory of Constraints, Visible Ops, and Kanban.
-- More practical role-based exercises and 30-day improvement planning.
+- A short lesson narrative.
+- Learning objectives.
+- Reading guidance.
+- Key vocabulary.
+- Concept notes.
+- Guided activities.
+- Role-based application prompts.
+- Reflection space.
+- Weekly deliverables.
+- A final 30-day improvement proposal template.
 
----
-
-## How to Use This Guide
-
-Use this guide while reading. Each week includes:
-
-- Reading assignment
-- Key concepts
-- While-reading questions
-- Brown-bag discussion topics
-- Role-based reflection prompts
-- A practical assignment
-
-You do not need perfect answers. The purpose is to notice patterns and connect the story to your own work.
-
-As you read, keep asking:
-
-> Where have I seen this pattern before?
-
-> How does this apply to my role?
-
-> What could we make more visible, safer, faster, or easier to learn from?
+You are not expected to become a DevOps expert in four weeks. The goal is to learn how to see work differently: as a system of flow, constraints, feedback, learning, and business outcomes.
 
 ---
 
-## Course Reading Plan
+# Part 1: Course Orientation
 
-| Week | Reading Assignment | Main Focus |
-|---|---:|---|
-| Week 1 | Chapters 1-10 | The mess, silos, invisible work, and the Four Types of Work |
-| Week 2 | Chapters 11-20 | The First Way, bottlenecks, Theory of Constraints, WIP, and Kanban |
-| Week 3 | Chapters 21-29 | The Second Way, feedback loops, Dev/Ops collaboration, security, and quality at the source |
-| Week 4 | Chapters 30-35 | The Third Way, resilience, continual learning, and business alignment |
+## Why We Are Reading This Book
 
----
+*The Phoenix Project* is a business novel about IT, but it is really about how organizations work. The story shows how invisible work, poor handoffs, overloaded experts, unclear priorities, late security involvement, and constant firefighting can damage business performance.
 
-## The Big Idea
+The lesson is not simply “IT should work harder.” Most people in the story are already working hard. The deeper lesson is this:
 
-*The Phoenix Project* is not just a story about a failed IT project. It is a story about a broken system of work. The book shows how invisible work, unplanned work, overloaded specialists, poor handoffs, late feedback, low trust, and conflicting priorities can damage delivery, reliability, security, employee morale, and business outcomes.
+> A broken system can make smart, hardworking people look ineffective.
 
-The Resource Guide deepens this lesson by connecting the story to Lean, DevOps, Theory of Constraints, Continuous Delivery, Kanban, Visible Ops, and Toyota Kata.
+This guide will help you connect the story to your own role and organization.
 
----
+## What You Will Practice
 
-# Core Concepts
+Across the four weeks, you will practice four skills:
 
-## 1. DevOps as Business Capability
+1. **Seeing work:** identifying visible and invisible demand.
+2. **Seeing flow:** noticing where work waits, gets blocked, or gets reworked.
+3. **Seeing feedback:** noticing where problems are discovered too late.
+4. **Seeing improvement:** designing a small 30-day experiment instead of waiting for a massive transformation.
 
-DevOps is not only automation, tools, or deployment pipelines. It is a way of improving the full IT value stream so business needs can become reliable customer value faster and safer.
+## Weekly Reading Plan
 
-In practical terms, DevOps improves:
-
-- Feature time to market
-- Customer satisfaction
-- Reliability and stability
-- Employee productivity and morale
-- Recovery from incidents
-- Ability to experiment and learn
-- Alignment between business, development, operations, security, and support
-
-Reflection:
-
-> In your organization, is technology treated mostly as a cost center, service provider, or business value creator?
+| Week | Reading Assignment | Lesson Theme | Participant Output |
+|---|---:|---|---|
+| Week 1 | Chapters 1-10 | The mess, silos, invisible work, and the Four Types of Work | Work visibility reflection |
+| Week 2 | Chapters 11-20 | The First Way, constraints, WIP, queue time, and Kanban | Flow map and bottleneck analysis |
+| Week 3 | Chapters 21-29 | The Second Way, feedback loops, quality, and security | Feedback loop worksheet |
+| Week 4 | Chapters 30-35 | The Third Way, learning, resilience, and business alignment | 30-day improvement proposal |
 
 ---
 
-## 2. The Three Ways
+# Part 2: Core Ideas You Will Use Every Week
+
+## Lesson 1: DevOps Is a Business Capability
+
+DevOps is often misunderstood as automation, deployment tooling, or engineers using modern pipelines. Those can be part of it, but they are not the whole point.
+
+In this study, treat DevOps as an organizational capability that helps business needs move safely and quickly into customer value.
+
+DevOps improves:
+
+- Speed of delivery.
+- Reliability and availability.
+- Recovery from incidents.
+- Security and compliance integration.
+- Employee productivity and morale.
+- Customer responsiveness.
+- Ability to learn from real outcomes.
+
+### Reflection
+
+In your organization, is technology treated mostly as:
+
+- A cost center?
+- A service provider?
+- A business partner?
+- A product and value-creation capability?
+
+Write your response:
+
+> 
+
+---
+
+## Lesson 2: The Three Ways
+
+The Three Ways are the central learning model for this course.
 
 ### The First Way: Flow
 
-The First Way is about the left-to-right flow of work from business need to customer value.
+The First Way focuses on how work moves from business need to customer value.
 
 ```mermaid
 flowchart LR
@@ -104,91 +112,62 @@ flowchart LR
     F --> G[Customer Value]
 ```
 
-To improve flow:
-
-- Use smaller batches of work.
-- Limit work in progress.
-- Reduce handoffs and waiting.
-- Avoid passing defects downstream.
-- Optimize for the whole system, not individual silos.
-- Build environments and delivery paths that are safe to change.
-
-Reflection:
-
-> Where does work wait the longest before customer value is delivered?
-
----
+A healthy flow of work has fewer delays, fewer hidden queues, smaller batches, fewer handoffs, and less rework.
 
 ### The Second Way: Feedback
 
-The Second Way is about fast feedback from right to left across the value stream.
+The Second Way focuses on how information moves backward through the system so teams can learn sooner.
 
 ```mermaid
 flowchart LR
     A[Business Need] --> B[Analysis] --> C[Build] --> D[Test] --> E[Deploy] --> F[Operate] --> G[Customer Value]
-    G -. production data .-> F
-    F -. incidents and telemetry .-> E
-    E -. deployment learning .-> D
+    G -. outcomes .-> A
+    F -. telemetry and incidents .-> C
+    E -. release learning .-> D
     D -. test results .-> C
-    C -. design and code feedback .-> B
-    B -. business validation .-> A
+    C -. feasibility .-> B
 ```
 
-To improve feedback:
-
-- Detect defects earlier.
-- Use automated testing and monitoring.
-- Share production telemetry.
-- Stop the line when builds, tests, or deployments fail.
-- Include Operations, Security, QA, and Support earlier.
-- Feed incidents and support trends back into product and engineering.
-
-Reflection:
-
-> What problem in your role is usually discovered too late?
-
----
+A healthy feedback system catches problems early, not after customers, auditors, or executives discover them.
 
 ### The Third Way: Continual Learning and Experimentation
 
-The Third Way is about creating a culture of learning, practice, experimentation, and resilience.
+The Third Way focuses on building a culture where teams improve the system, practice recovery, and learn from failure.
 
-To improve learning:
-
-- Treat failures as learning opportunities.
-- Practice recovery before a crisis.
-- Make improvement part of daily work.
-- Create high-trust teams.
-- Encourage safe experiments.
-- Pay down technical debt and nonfunctional gaps.
-- Practice until good behaviors become routine.
-
-Reflection:
-
-> Does your team have time to improve the system, or only time to survive the work?
+A learning organization makes improvement part of daily work instead of treating it as extra work.
 
 ---
 
-## 3. The Four Types of Work
+## Lesson 3: The Four Types of Work
 
-The book describes four types of IT work:
+The book describes four types of IT work. You will use this model throughout the course.
 
-| Type | Description | Common Risk |
+| Type of Work | What It Means | Why It Matters |
 |---|---|---|
-| Business Projects | Work tied to business initiatives, product releases, or strategic programs | Visible to leadership but often underestimates dependencies |
-| Internal IT Projects | Infrastructure, upgrades, modernization, automation, platforms, resilience | Often invisible or underfunded |
-| Changes | Updates to existing systems, releases, configuration changes, access changes | Can create incidents if poorly controlled |
-| Unplanned Work | Incidents, outages, break-fixes, emergency requests, escalations, rework | Consumes capacity and blocks planned work |
+| Business Projects | Work tied to strategic initiatives, products, revenue, or business goals | Usually visible to leadership, but often depends on hidden technical work |
+| Internal IT Projects | Infrastructure, modernization, automation, tooling, resilience, cleanup | Often underfunded or invisible but required for stability and delivery |
+| Changes | Releases, configuration updates, access changes, system modifications | Can create incidents when poorly understood or rushed |
+| Unplanned Work | Incidents, outages, escalations, emergency fixes, rework | Consumes capacity and prevents planned work from finishing |
 
-Reflection:
+### Practice
 
-> Which type of work consumes the most time in your role?
+Think about your last two weeks of work. List five work items and classify each one.
+
+| Work Item | Type of Work | Planned or Unplanned? | Who Requested It? | Who Was Impacted? |
+|---|---|---|---|---|
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 ---
 
-## 4. Why WIP and Queue Time Matter
+## Lesson 4: WIP, Queue Time, and Overloaded People
 
-One of the strongest lessons in the Resource Guide is that high utilization creates long wait times. When people or teams are loaded near 100%, even small tasks can sit in queue for days or weeks.
+A key lesson from the Resource Guide is that high utilization creates long wait times. When people or teams are loaded near 100%, work does not flow faster. It waits longer.
+
+> A 30-minute task can take two weeks if it waits behind several overloaded teams.
 
 ```mermaid
 xychart-beta
@@ -198,137 +177,122 @@ xychart-beta
     line [1, 1.5, 2.3, 4, 5.7, 9, 19, 49]
 ```
 
-Key lesson:
+### Reflection
 
-> A 30-minute task is not a 30-minute lead time if it waits behind seven overloaded handoffs.
+Where does small work wait too long in your organization?
 
-Reflection:
-
-> Where does a small request in your organization take a long time because it is waiting in a queue?
+> 
 
 ---
 
-## 5. DevOps Myth-Busting
-
-| Myth | Better Understanding |
-|---|---|
-| DevOps replaces Agile | DevOps extends Agile by redefining “done” as running successfully in production. |
-| DevOps replaces ITIL | DevOps and ITIL can work together; change, configuration, incident, and problem management still matter. |
-| DevOps means NoOps | Operations does not disappear; many operational capabilities become automated, self-service, and shared. |
-| DevOps is only for startups | Enterprise organizations need DevOps because they have complex dependencies, legacy systems, and high risk. |
-| DevOps is just automation | Automation helps, but shared goals, shared pain, trust, flow, feedback, and learning matter just as much. |
-
-Reflection:
-
-> Which DevOps myth appears most often in your environment?
-
----
-
-# Week 1: The Mess and the Four Types of Work
+# Week 1 Lesson: The Mess and the Four Types of Work
 
 ## Reading Assignment
 
 Read **Chapters 1-10**.
 
-## Focus
+## Lesson Overview
 
-Bill Palmer is pushed into the VP of IT Operations role at Parts Unlimited. The organization is failing, Project Phoenix is in trouble, teams are siloed, and work is invisible.
+Bill Palmer is pushed into the VP of IT Operations role at Parts Unlimited. The business is under pressure, Project Phoenix is failing, teams are siloed, and urgent work is everywhere. Week 1 is about learning to see the mess clearly without immediately blaming people.
 
 ## Learning Objectives
 
-By the end of Week 1, you should be able to:
+By the end of this lesson, you should be able to:
 
-- Recognize symptoms of a siloed organization.
+- Identify symptoms of a broken work system.
 - Explain the Four Types of Work.
-- Identify examples of unplanned work.
-- Describe why hidden work damages delivery.
+- Describe how unplanned work damages planned work.
 - Recognize hero culture and single points of failure.
+- Connect one example from the book to your own role.
 
-## Key Concepts
+## Key Vocabulary
 
-- Invisible work
-- Unplanned work
-- Siloed teams
-- Finger-pointing
-- Hero culture
-- Business vs. IT misalignment
-- Four Types of Work
+| Term | Meaning |
+|---|---|
+| Invisible Work | Work that consumes capacity but is not shown in official plans or dashboards |
+| Unplanned Work | Emergency or recovery work that displaces planned commitments |
+| Hero Culture | A pattern where the organization depends on heroic individuals instead of reliable systems |
+| Silo | A team or function optimized around its own goals instead of the whole system |
+| Business Value | A result that improves customer, operational, financial, risk, or strategic outcomes |
 
-## While-Reading Questions
+## Before You Read
 
-1. What are the initial symptoms of dysfunction between Development, IT Operations, Security, and the Business?
-2. How does Bill initially react to his promotion, and why does he feel that way?
-3. What work is visible to leadership, and what work is hidden?
-4. What is Project Phoenix supposed to accomplish?
-5. What happens when standard IT protocols are bypassed?
-6. Who appears to be overloaded, and why?
-7. Which types of work are planned, and which are unplanned?
+As you read Chapters 1-10, mark scenes where:
 
-## Brown-Bag Discussion Topics
+- People are reacting instead of planning.
+- Work bypasses normal process.
+- Different teams blame one another.
+- A single person becomes necessary for too many things.
+- Leaders cannot see the real work happening under the surface.
 
-### The Blame Game
+## Reading Questions
 
-How does finger-pointing between Dev, Ops, Security, and the Business mirror challenges we see in real organizations?
+1. What are the earliest signs that Parts Unlimited has a system problem, not just a project problem?
+2. Why does Bill resist the promotion?
+3. What work is visible to executives?
+4. What work is invisible but still consuming capacity?
+5. What is Project Phoenix expected to accomplish for the business?
+6. What happens when standard IT processes are bypassed?
+7. Who appears overloaded, and what makes that dangerous?
 
-### Identifying Work
+## Lesson Notes
 
-Use the Four Types of Work to categorize work from your own role.
+The first part of the book shows a familiar enterprise pattern: everyone is busy, but the organization still cannot reliably deliver. That means effort is not the core issue. The system of work is the issue.
 
-| Work Item | Business Project | Internal IT Project | Change | Unplanned Work |
-|---|---:|---:|---:|---:|
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+When work is invisible, leaders overcommit teams. When priorities are unclear, everything becomes urgent. When everything is urgent, people bypass process. When process is bypassed, quality and reliability suffer. When reliability suffers, unplanned work grows. This creates a loop.
 
-### The Cost of Unplanned Work
+```mermaid
+flowchart TD
+    A[Invisible Work] --> B[Overcommitment]
+    B --> C[Too Much WIP]
+    C --> D[Delays and Shortcuts]
+    D --> E[Defects and Incidents]
+    E --> F[Unplanned Work]
+    F --> B
+```
 
-How does unplanned work act as “anti-work”? What planned work does it displace?
+## In-Session Activity: Make Work Visible
 
-## Role-Based Reflection
+Use the table below to classify real or realistic work from your role.
+
+| Work Item | Business Project | Internal IT Project | Change | Unplanned Work | Notes |
+|---|---:|---:|---:|---:|---|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+## Role Application
 
 ### Project Manager
 
-- Where does unplanned work disrupt your schedule?
-- How do you account for hidden dependencies?
-- What planned work is at risk because teams are overloaded?
+Where does unplanned work disrupt your schedule? What work is missing from your plan but still consumes team capacity?
 
 ### Product Owner
 
-- Are priorities truly ranked, or are too many items considered urgent?
-- Which backlog items create downstream operational work?
-- What work should be stopped or delayed?
+Are priorities truly ranked, or are many items treated as equally urgent? What should be stopped or delayed?
 
 ### Developer
 
-- What interrupts focused build time?
-- Where does undocumented knowledge create dependency on one person?
-- Are heroics rewarded more than prevention?
+What interrupts focused work? Where are heroics rewarded more than prevention?
 
 ### Business Analyst
 
-- Where do unclear requirements create rework?
-- Are support, security, and operational impacts captured early?
-- What assumptions should be validated sooner?
+Where do unclear requirements create downstream rework? Who should be involved earlier?
 
 ### Operations / Infrastructure
 
-- What work arrives late and urgent?
-- Which recurring tasks should become standard, automated, or self-service?
-- Where is supportability ignored until production?
+What work arrives late and urgent? Which recurring tasks should become standardized or automated?
 
 ### Security / Risk / Compliance
 
-- Where is security brought in too late?
-- What risks are created by emergency delivery?
-- Which controls could be embedded earlier?
+Where are controls discovered too late? What risks are created by emergency delivery?
 
 ### Leader / Manager
 
-- What important work is invisible in status reporting?
-- Who are the single points of failure?
-- What incentives reward firefighting instead of prevention?
+What work is invisible in status reporting? Who are the single points of failure?
 
-## Week 1 Assignment
+## Week 1 Reflection Assignment
 
 Write a one-page reflection:
 
@@ -336,101 +300,85 @@ Write a one-page reflection:
 
 Include:
 
-- One real or realistic example.
-- The type of work involved.
-- The impact on delivery, risk, quality, or morale.
-- One way to make the work more visible.
+1. A real or realistic example.
+2. The type of work involved.
+3. The impact on delivery, risk, quality, or morale.
+4. One way to make the work more visible.
 
 ---
 
-# Week 2: The First Way, Constraints, WIP, and Kanban
+# Week 2 Lesson: The First Way, Constraints, WIP, and Kanban
 
 ## Reading Assignment
 
 Read **Chapters 11-20**.
 
-## Focus
+## Lesson Overview
 
-Bill begins applying manufacturing and Lean principles to IT. The team learns about constraints, bottlenecks, WIP, Kanban, and the importance of protecting Brent.
+Bill begins applying manufacturing and Lean principles to IT work. The team learns that the problem is not simply lack of effort. Work is stuck in queues, flowing through bottlenecks, and depending too heavily on Brent.
 
 ## Learning Objectives
 
-By the end of Week 2, you should be able to:
+By the end of this lesson, you should be able to:
 
 - Explain the First Way: Flow.
-- Explain the Theory of Constraints.
-- Describe why Brent is a bottleneck.
-- Explain why high utilization increases queue time.
-- Use a basic Kanban view to visualize work.
-- Identify one bottleneck in your own workflow.
+- Describe the Theory of Constraints.
+- Identify a bottleneck in a workflow.
+- Explain why high utilization increases wait time.
+- Use a simple Kanban model to visualize work.
 
-## Key Concepts
+## Key Vocabulary
 
-- First Way: Flow
-- Theory of Constraints
-- WIP limits
-- Kanban
-- Queue time
-- Resource utilization
-- Global optimization vs. local optimization
-- Protecting the constraint
+| Term | Meaning |
+|---|---|
+| Constraint | The person, team, system, process, vendor, or approval that limits total throughput |
+| WIP | Work in progress; work started but not finished |
+| Queue Time | Time work spends waiting before being acted on |
+| Kanban | A visual method for managing work and limiting WIP |
+| Local Optimization | Improving one team’s metric while harming the larger system |
 
 ## Theory of Constraints: Five Steps
 
 1. **Identify** the constraint.
-2. **Exploit** the constraint by making sure it works only on the highest-value work that only it can do.
+2. **Exploit** the constraint by ensuring it works only on the highest-value work only it can do.
 3. **Subordinate** other work to the constraint.
 4. **Elevate** the constraint by increasing capacity or reducing demand.
-5. **Repeat** the process because the constraint will move.
+5. **Repeat** because the constraint will move.
 
-## Kanban Starter Model
+## Before You Read
 
-```mermaid
-flowchart LR
-    A[Ready] --> B[Doing]
-    B --> C[Blocked]
-    B --> D[Review]
-    D --> E[Done]
-```
+As you read Chapters 11-20, look for:
 
-Recommended starter rule:
+- Where work queues up.
+- Who everyone waits for.
+- What work should not be going to Brent.
+- How visualizing work changes conversations.
+- How limiting WIP changes behavior.
 
-> Limit the number of items in Doing before starting new work.
+## Reading Questions
 
-## While-Reading Questions
+1. What does Erik teach Bill about constraints?
+2. Why is Brent a bottleneck?
+3. What kinds of work should be protected from Brent?
+4. How does the Kanban board change the conversation?
+5. What happens when all work must flow through one expert?
+6. How does high utilization create long queues?
+7. What would it mean to optimize the whole system instead of one team?
 
-1. What is the Theory of Constraints as Erik explains it?
-2. Who is the primary bottleneck at Parts Unlimited, and how did he become one?
-3. What steps does Bill take to protect the bottleneck from unplanned work?
-4. How does the Kanban board change the way the team views work?
-5. What happens when all work must flow through one person?
-6. How does high utilization create long queue time?
-7. What work should be routed away from Brent?
+## Lesson Notes
 
-## Brown-Bag Discussion Topics
+The First Way is about flow from business need to customer value. If one part of the system is overloaded, the whole system slows down. Work does not flow just because people are busy.
 
-### Find Your Brent
+A bottleneck can be a person, but it can also be:
 
-Brent is the indispensable engineer who slows everything down because too much work depends on him.
-
-Discuss:
-
-- Do we have “Brents” in our organization?
-- Are they people, systems, tools, approval boards, environments, or vendors?
-- How can we protect them?
-- How can we share or reduce dependency on their knowledge?
-
-### Visualizing Work
-
-What tools do we use to visualize work? Are they effective? What work is missing from those tools?
-
-### Flow and WIP
-
-How could limiting work in progress improve delivery, quality, or morale?
-
-## Week 2 Activity: Flow Map
-
-Map one process from request to outcome.
+- A manual approval board.
+- An environment.
+- A vendor.
+- A security review queue.
+- A test cycle.
+- A release process.
+- A product owner decision.
+- A shared specialist.
 
 ```mermaid
 flowchart LR
@@ -443,86 +391,129 @@ flowchart LR
     G --> H[Operate or Support]
 ```
 
-Then mark:
+## In-Session Activity: Flow Map
 
-- Where work waits.
-- Where work is reworked.
-- Where the same person or team is always needed.
-- Where approvals happen.
-- Where defects escape.
-- Where work is invisible.
+Choose one process from your role. Map how it moves from request to outcome.
 
-## Week 2 Assignment
+| Step | What Happens? | Who Owns It? | Where Does It Wait? | What Can Go Wrong? |
+|---|---|---|---|---|
+| 1 |  |  |  |  |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+| 4 |  |  |  |  |
+| 5 |  |  |  |  |
 
-Create a simple flow map for one process in your role.
+## Role Application
 
-Include:
+### Project Manager
 
-1. Start point
-2. End point
-3. Major handoffs
-4. Waiting points
-5. Bottlenecks
-6. One improvement idea
+What dependency most often delays your project? Is it visible in the plan?
+
+### Product Owner
+
+What work should be deprioritized so the most important work can finish?
+
+### Developer
+
+What creates the most waiting time before you can complete work?
+
+### Business Analyst
+
+Where do requirements wait for clarification or decision-making?
+
+### Operations / Infrastructure
+
+Which recurring requests should become self-service or automated?
+
+### Security / Risk / Compliance
+
+Which controls can become standardized patterns instead of one-off reviews?
+
+### Leader / Manager
+
+What work needs to stop so the most important work can finish?
+
+## Week 2 Deliverable
+
+Create a simple flow map for one process in your role. Identify:
+
+1. Start point.
+2. End point.
+3. Major handoffs.
+4. Waiting points.
+5. Bottlenecks.
+6. One improvement idea.
 
 ---
 
-# Week 3: The Second Way, Feedback Loops, Quality, and Security
+# Week 3 Lesson: The Second Way, Feedback, Quality, and Security
 
 ## Reading Assignment
 
 Read **Chapters 21-29**.
 
-## Focus
+## Lesson Overview
 
-The organization begins improving feedback. Development and Operations become more collaborative. Security starts shifting from gatekeeper to partner. Batch sizes shrink, and work becomes safer.
+The organization begins to improve feedback. Development and Operations start collaborating more effectively. Security begins shifting from late-stage gatekeeping toward earlier enablement. Work becomes safer when feedback becomes faster.
 
 ## Learning Objectives
 
-By the end of Week 3, you should be able to:
+By the end of this lesson, you should be able to:
 
-- Explain the Second Way: fast feedback.
-- Describe why late feedback creates rework.
-- Explain quality at the source.
-- Describe how Security can become an enabler.
-- Identify one delayed feedback loop in your own role.
+- Explain the Second Way: Feedback.
+- Identify a delayed feedback loop.
+- Explain why late feedback creates rework.
+- Describe quality at the source.
+- Explain how Security can become an enabler.
 
-## Key Concepts
+## Key Vocabulary
 
-- Second Way: Feedback
-- Right-to-left learning
-- Quality at the source
-- Automated testing
-- Production telemetry
-- Smaller batch sizes
-- Security shifting left
-- Shared goals and shared pain
+| Term | Meaning |
+|---|---|
+| Feedback Loop | A mechanism that tells earlier teams whether work is safe, useful, correct, or valuable |
+| Quality at the Source | Building quality into the work instead of inspecting it only at the end |
+| Shift Left | Moving quality, security, operational, and risk input earlier in the lifecycle |
+| Batch Size | The amount of work released or reviewed at once |
+| Shared Pain | Teams jointly owning the consequences of system outcomes |
 
-## While-Reading Questions
+## Before You Read
 
-1. What is the core concept of the Second Way?
+As you read Chapters 21-29, look for:
+
+- Where teams begin sharing information sooner.
+- Where smaller batches reduce risk.
+- Where security changes its approach.
+- Where quality becomes built into work rather than inspected afterward.
+- Where feedback changes behavior.
+
+## Reading Questions
+
+1. What is the core idea of the Second Way?
 2. How do Chris and Bill begin to align their goals?
-3. Why is reducing batch size safer than large, monolithic deployments?
-4. How does John, the CISO, begin to change his approach?
-5. What kinds of feedback were missing earlier in the book?
-6. Where does the team learn too late?
+3. Why are smaller batches safer than large deployments?
+4. How does John, the CISO, begin to change?
+5. What feedback was missing earlier?
+6. Where did teams previously learn too late?
 7. What changes make work safer?
 
-## Brown-Bag Discussion Topics
+## Lesson Notes
 
-### DevOps Collaboration
+Late feedback is expensive. If a requirement is wrong, it is cheaper to learn that during analysis than after deployment. If a security control is missing, it is cheaper to learn during design than during audit. If a system cannot be operated, it is cheaper to learn before production.
 
-How did the relationship between Development and Operations shift from adversarial to collaborative? What compromises were required?
+Good feedback is not just more meetings. It can be:
 
-### Feedback Loops
+- Automated test results.
+- Build status.
+- Production telemetry.
+- Security patterns.
+- Peer review.
+- Customer usage data.
+- Support trends.
+- Incident reviews.
+- Acceptance criteria.
+- Release readiness checks.
 
-How quickly do we know if a change caused a downstream issue? How could we shorten that feedback loop?
-
-### Security as an Enabler
-
-How can security, quality assurance, compliance, or risk be integrated earlier instead of acting only as a final gate?
-
-## Feedback Loop Worksheet
+## In-Session Activity: Feedback Loop Review
 
 | Question | Response |
 |---|---|
@@ -534,7 +525,41 @@ How can security, quality assurance, compliance, or risk be integrated earlier i
 | What feedback is too slow? |  |
 | What can be automated, standardized, or made visible? |  |
 
-## Week 3 Assignment
+## Role Application
+
+### Project Manager
+
+Where should feedback checkpoints be added to the plan?
+
+### Product Owner
+
+How do you know whether a feature solved the business problem?
+
+### Developer
+
+What test, review, or telemetry would catch issues earlier?
+
+### Business Analyst
+
+What requirement questions would prevent downstream rework?
+
+### Operations / Infrastructure
+
+What production signals should feed back into design and planning?
+
+### Security / Risk / Compliance
+
+What controls can become templates, patterns, or automated checks?
+
+### QA / Testing
+
+Which defect pattern keeps repeating?
+
+### Support
+
+Which recurring tickets should influence product or engineering priorities?
+
+## Week 3 Deliverable
 
 Write a one-page response:
 
@@ -542,45 +567,44 @@ Write a one-page response:
 
 Include:
 
-- Where the problem starts.
-- Where it is discovered.
-- Why feedback is delayed.
-- What earlier feedback loop could help.
+1. Where the problem starts.
+2. Where it is discovered.
+3. Why feedback is delayed.
+4. What earlier feedback loop could help.
 
 ---
 
-# Week 4: The Third Way, Learning, Resilience, and Business Alignment
+# Week 4 Lesson: The Third Way, Learning, Resilience, and Business Alignment
 
 ## Reading Assignment
 
 Read **Chapters 30-35**.
 
-## Focus
+## Lesson Overview
 
-The organization learns to improve the system of work. IT becomes more aligned to business value. The team practices resilience, learns from failure, and moves toward continual experimentation.
+The organization begins to improve the system of work. IT becomes more connected to business outcomes. Teams practice resilience, learn from failure, and begin treating improvement as part of daily work.
 
 ## Learning Objectives
 
-By the end of Week 4, you should be able to:
+By the end of this lesson, you should be able to:
 
 - Explain the Third Way.
-- Describe why repetition and practice create mastery.
-- Explain why improvement work must be part of daily work.
-- Connect DevOps to business outcomes.
+- Describe how practice and repetition build mastery.
+- Connect DevOps principles to business outcomes.
+- Explain why nonfunctional requirements are business requirements.
 - Create a realistic 30-day improvement proposal.
 
-## Key Concepts
+## Key Vocabulary
 
-- Third Way: Continual learning and experimentation
-- Toyota Kata
-- Improvement cycles
-- Resilience and Chaos Monkey-style learning
-- Blameless postmortems
-- Nonfunctional requirements
-- Business alignment
-- High-trust culture
+| Term | Meaning |
+|---|---|
+| Blameless Postmortem | A review focused on learning from system conditions, not punishing individuals |
+| Resilience | The ability to continue or recover when things fail |
+| Toyota Kata | A repeated improvement routine based on current condition, target condition, obstacles, experiments, and learning |
+| Nonfunctional Requirement | Requirements such as reliability, security, scalability, operability, maintainability, and recoverability |
+| 30-Day Experiment | A small improvement that can be tested quickly and measured simply |
 
-## Improvement Kata Starter
+## Improvement Kata
 
 ```mermaid
 flowchart TD
@@ -592,31 +616,52 @@ flowchart TD
     F --> C
 ```
 
-## While-Reading Questions
+## Before You Read
 
-1. What does the Third Way require regarding culture and experimentation?
-2. What is the purpose of the Chaos Monkey exercise?
-3. How does Steve Masters' view of IT change by the end of the novel?
-4. How does the team save Parts Unlimited and Project Phoenix?
+As you read Chapters 30-35, look for:
+
+- How leaders change their view of IT.
+- How teams practice recovery.
+- How work becomes aligned to business value.
+- What behaviors show learning.
+- What changes make the system more resilient.
+
+## Reading Questions
+
+1. What does the Third Way require from culture?
+2. What is the purpose of the Chaos Monkey-style exercise?
+3. How does Steve Masters’ view of IT change?
+4. How does the team save Project Phoenix?
 5. What behaviors show that the organization is learning?
 6. What nonfunctional requirements become more important?
 7. How does IT become a business partner instead of a scapegoat?
 
-## Brown-Bag Discussion Topics
+## Lesson Notes
 
-### Embracing Failure
+The Third Way is about creating conditions where learning is normal. Teams cannot improve if every failure leads to blame, if every person is fully utilized, or if improvement is treated as extra work.
 
-The Third Way requires a culture where it is safe to fail and learn. Do we have a blameless culture when things go wrong?
+A learning organization asks:
 
-### Building Resilience
+- What did we expect to happen?
+- What actually happened?
+- What surprised us?
+- What did the system make easy or hard?
+- What should we try next?
 
-Could we safely practice recovery from failures? What could we test in a low-risk way?
+## In-Session Activity: 30-Day Improvement Proposal
 
-### Final Action Plan
+| Area | Response |
+|---|---|
+| My role |  |
+| Recurring problem |  |
+| Book concept |  |
+| Root cause or system condition |  |
+| People impacted |  |
+| 30-day experiment |  |
+| Support needed |  |
+| Success measure |  |
 
-What is one specific process change or cultural shift we should pitch to leadership to improve daily work?
-
-## Week 4 Assignment
+## Week 4 Deliverable
 
 Create a **Phoenix Project Role Application Brief**.
 
@@ -636,87 +681,123 @@ Include:
 
 # Final Capstone: 30-Day Improvement Proposal
 
-Each participant or small group creates a short proposal.
+Your final output is a short proposal for one practical improvement.
 
 ## Proposal Template
 
-### Problem Statement
+### 1. Problem Statement
 
 Describe one recurring problem that affects flow, quality, risk, reliability, morale, or delivery.
 
-### Current Impact
+> 
+
+### 2. Current Impact
 
 Explain how the problem affects time, cost, quality, morale, customer experience, or risk.
 
-### Book Connection
+> 
+
+### 3. Book Connection
 
 Identify the related lesson from *The Phoenix Project*.
 
 Possible connections:
 
-- Four Types of Work
-- Unplanned work
-- Brent bottleneck
-- First Way: Flow
-- Second Way: Feedback
-- Third Way: Learning
-- Theory of Constraints
-- WIP limits
-- Security shifting left
-- Continuous delivery
-- Toyota Kata
+- Four Types of Work.
+- Unplanned work.
+- Brent bottleneck.
+- First Way: Flow.
+- Second Way: Feedback.
+- Third Way: Learning.
+- Theory of Constraints.
+- WIP limits.
+- Security shifting left.
+- Continuous delivery.
+- Toyota Kata.
 
-### Root Cause
+> 
+
+### 4. Root Cause or System Condition
 
 Explain why the issue keeps happening.
 
-### Proposed 30-Day Experiment
+> 
+
+### 5. Proposed 30-Day Experiment
 
 Describe one small, realistic change that can be tested in 30 days.
 
-### Expected Outcome
+> 
+
+### 6. Expected Outcome
 
 Explain what should improve.
 
-### Measurement
+> 
+
+### 7. Measurement
 
 Pick one or two simple indicators.
 
 Examples:
 
-- Fewer emergency requests
-- Reduced approval wait time
-- Fewer reopened defects
-- Faster incident recovery
-- Reduced blocked work
-- More work visible in the backlog
-- Fewer late security findings
-- Improved deployment success
+- Fewer emergency requests.
+- Reduced approval wait time.
+- Fewer reopened defects.
+- Faster incident recovery.
+- Reduced blocked work.
+- More work visible in the backlog.
+- Fewer late security findings.
+- Improved deployment success.
 
-## Example Proposal Ideas
-
-- Add operational readiness questions to project intake.
-- Add access planning to release readiness.
-- Add security control requirements to the design template.
-- Create a WIP limit for active project work.
-- Build a simple Kanban board for team requests.
-- Create a recurring review of unplanned work.
-- Document a process currently dependent on one expert.
-- Add a standard rollback question to change review.
-- Add production telemetry requirements to acceptance criteria.
-- Feed support ticket trends back into sprint planning.
+> 
 
 ---
 
-# Final Reflection Questions
+# Final Reflection
+
+Answer these questions after the final session.
 
 1. What part of the book felt most familiar?
-2. Who or what is the “Brent” in our organization?
+2. Who or what is the “Brent” in your organization?
 3. What type of unplanned work consumes the most time?
-4. Where do we have too much work in progress?
-5. What do we discover too late?
+4. Where is there too much WIP?
+5. What is discovered too late?
 6. What process creates the most rework?
-7. What is one improvement we could test in 30 days?
+7. What improvement could be tested in 30 days?
 8. What would leadership need to support?
-9. What should we stop doing?
-10. What should we make visible?
+9. What should be stopped?
+10. What should be made visible?
+
+---
+
+# Appendix: Quick Reference
+
+## The Three Ways
+
+| Way | Focus | Key Question |
+|---|---|---|
+| First Way | Flow | How does work move from business need to customer value? |
+| Second Way | Feedback | How quickly do we learn when something is wrong? |
+| Third Way | Learning | How do we improve the system and practice resilience? |
+
+## The Four Types of Work
+
+| Type | Examples |
+|---|---|
+| Business Projects | Product launch, revenue initiative, regulatory deadline, strategic program |
+| Internal IT Projects | Platform upgrades, automation, monitoring, resilience, technical debt reduction |
+| Changes | Releases, configuration changes, access updates, firewall rules, deployments |
+| Unplanned Work | Incidents, outages, escalations, emergency fixes, rework |
+
+## 30-Day Experiment Ideas
+
+- Add operational readiness questions to project intake.
+- Add security control expectations to design templates.
+- Create a WIP limit for active team work.
+- Build a shared Kanban board for incoming requests.
+- Track unplanned work for two weeks.
+- Document a process dependent on one expert.
+- Add rollback planning to change review.
+- Add production telemetry to acceptance criteria.
+- Feed support ticket trends into sprint planning.
