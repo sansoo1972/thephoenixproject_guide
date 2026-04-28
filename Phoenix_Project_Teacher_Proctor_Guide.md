@@ -1,164 +1,115 @@
-# The Phoenix Project Teacher / Proctor Guide v2.0
+# The Phoenix Project Teacher / Proctor Lesson Plan v3.1
 
-## 4-Week Brown-Bag Study Series
+## 4-Week Brown-Bag Facilitation Guide
 
 **Book:** *The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win* by Gene Kim, Kevin Behr, and George Spafford  
 **Companion Reference:** *The Phoenix Project Resource Guide*  
+**Participant Guide:** *The Phoenix Project Participant Study Guide v3.1 — Printable Workbook*  
+**Format:** Four weekly 60-minute sessions  
 **Audience:** Project Managers, Product Owners, Developers, Business Analysts, Operations, Security, QA, Support, and Leaders  
-**Format:** Four weekly 60-minute brown-bag sessions  
-**Primary Outcome:** Participants connect the story to their own work system and identify one practical 30-day improvement.
+**Primary Outcome:** Participants complete a practical 30-day improvement proposal tied to their role.
 
 ---
 
-## What Changed in Version 2.0
+## What Changed in Version 3.1
 
-Version 2.0 incorporates the Resource Guide’s deeper treatment of:
+Version 3.1 aligns the teacher guide to the printable participant workbook. It adds:
 
-- DevOps as a business performance capability.
-- The Three Ways as guiding values, not just vocabulary.
-- The Four Types of Work as a visibility and capacity-management tool.
-- Resource utilization, WIP, queue time, and why small work can wait for weeks.
-- DevOps myths, especially the misunderstandings that DevOps replaces Agile, ITIL, Operations, or governance.
-- Continuous Delivery, Toyota Kata, Theory of Constraints, Kanban, and Visible Ops as supporting frameworks.
-- More explicit facilitator prompts for security, risk, compliance, operations, and leadership.
-
----
-
-## Facilitator Purpose
-
-The facilitator is not expected to lecture through the book chapter by chapter. The goal is to help participants recognize organizational patterns and apply the lessons to their role.
-
-The core shift you are guiding is:
-
-> From: “That happened in the book.”  
-> To: “That happens in our organization, and here is what we can improve.”
-
-Use the book as a mirror for common enterprise problems:
-
-- Invisible work
-- Unplanned work
-- Conflicting priorities
-- Bottlenecks and hero culture
-- Poor handoffs
-- Late security, quality, and operational input
-- Weak feedback loops
-- Lack of shared business context
-- Firefighting instead of continuous improvement
-- High utilization that creates long queues
-- Local optimization that harms global outcomes
+- A lesson-book style facilitation model.
+- Instructor preparation checklists.
+- Slide-by-slide teaching guidance.
+- Workbook references and places to pause for participant writing.
+- Stronger timing controls for 60-minute delivery.
+- More scripted transitions between reading discussion, concept teaching, and application.
+- Assessment checks for each session.
+- End-of-session instructor notes and follow-up planning spaces.
 
 ---
 
-## Facilitation Principle
+# Facilitator Quick Start
 
-Do not let the class turn into a complaint session. Convert complaints into system observations.
+## Before the Series Begins
 
-| Complaint Language | Facilitator Reframe |
-|---|---|
-| “Security always blocks us.” | “Where should security input happen earlier so it prevents rework?” |
-| “Operations slows everything down.” | “What does Operations need earlier to support the change safely?” |
-| “Developers throw things over the wall.” | “What incentives or handoffs make that behavior likely?” |
-| “The PMO just wants dates.” | “What visibility would help planning reflect real capacity?” |
-| “Everything is urgent.” | “Who is deciding priority, and what work should be stopped?” |
+Use this checklist before Week 1.
 
----
+- [ ] Confirm participants have access to the book.
+- [ ] Send reading plan and calendar holds.
+- [ ] Print or distribute the Participant Study Guide v3.1.
+- [ ] Prepare slides for Week 1.
+- [ ] Decide whether groups will work individually, in pairs, or by role.
+- [ ] Prepare a shared parking lot for off-topic issues.
+- [ ] Choose one neutral example of hidden work or unplanned work.
+- [ ] Clarify whether participants may discuss real internal examples.
 
-## Course Overview
+## Facilitator Mindset
 
-### Course Goal
+The teacher’s role is not to lecture through the plot. The teacher’s role is to help participants notice patterns in the story and apply them to their own work.
 
-Participants will understand DevOps principles, identify dysfunctions in traditional IT environments, and learn how Lean manufacturing concepts apply to knowledge work.
+Keep returning to three questions:
 
-### Reading Plan
+1. What happened in the story?
+2. What system condition caused that behavior?
+3. Where does a similar pattern show up in our work?
 
-| Week | Reading Assignment | Main Focus |
-|---|---:|---|
-| Week 1 | Chapters 1-10 | The mess, silos, invisible work, and the Four Types of Work |
-| Week 2 | Chapters 11-20 | The First Way, bottlenecks, Theory of Constraints, WIP, and Kanban |
-| Week 3 | Chapters 21-29 | The Second Way, feedback loops, Dev/Ops collaboration, and security shifting left |
-| Week 4 | Chapters 30-35 | The Third Way, resilience, continual learning, and business alignment |
-
----
-
-## Recommended 60-Minute Session Structure
-
-| Time | Activity |
-|---:|---|
-| 0-5 min | Welcome, objective, and opening question |
-| 5-15 min | Reading recap and key scenes |
-| 15-25 min | Concept teaching |
-| 25-45 min | Group activity or worksheet |
-| 45-55 min | Role-based discussion and share-out |
-| 55-60 min | Assignment, next reading, and close |
-
----
-
-## Ground Rules
-
-Read these aloud in Week 1.
+## Ground Rules to Read Aloud
 
 1. Discuss systems, not personalities.
-2. Use real examples, but protect confidentiality.
+2. Use real examples carefully and protect confidentiality.
 3. Challenge assumptions respectfully.
-4. Avoid blame; look for conditions that create behavior.
+4. Avoid blame; identify conditions that shape behavior.
 5. Focus on changes within influence.
 6. Convert frustrations into problem statements.
-7. End each session with one practical takeaway.
+7. Leave each session with one practical takeaway.
+
+## Standard 60-Minute Teaching Pattern
+
+| Time | Activity | Facilitator Purpose |
+|---:|---|---|
+| 0-5 | Welcome and opening question | Set tone and activate prior reading |
+| 5-15 | Reading recap | Surface key scenes without retelling the whole book |
+| 15-25 | Mini-lesson | Teach one or two concepts only |
+| 25-45 | Workbook activity | Move from theory to participant application |
+| 45-55 | Role-based share-out | Compare patterns across roles |
+| 55-60 | Close and homework | Capture learning and assign next work |
 
 ---
 
-## Teacher Notes: Resource Guide Concepts to Weave Throughout
+# Course-Level Lesson Map
 
-### DevOps as Business Performance
-
-DevOps is not just a technology movement. It improves the organization’s ability to deliver customer value safely and quickly. Emphasize business language: lead time, reliability, productivity, market responsiveness, risk, recovery, and customer outcomes.
-
-Facilitator question:
-
-> What business outcome is harmed when this work system breaks?
-
-### The Three Ways
-
-Use the Three Ways as the spine of the course:
-
-1. **Flow:** How does work move from business need to customer value?
-2. **Feedback:** How quickly do we learn when something is wrong?
-3. **Learning:** How do we improve the system and practice resilience?
-
-### The Four Types of Work
-
-The Four Types of Work are a practical way to reveal demand and capacity.
-
-- Business projects
-- Internal IT projects
-- Changes
-- Unplanned work
-
-Facilitator warning:
-
-> If participants only list official project work, push them to identify support work, emergency work, access work, review work, escalations, meetings, rework, and interruptions.
-
-### WIP, Queue Time, and Utilization
-
-The Resource Guide’s queue-time lesson is powerful for teaching. Once resources are highly utilized, wait time rises sharply. A simple task can take days because it waits in queues across multiple teams.
-
-Use this teaching statement:
-
-> A 30-minute task can have a 2-week lead time if it crosses several overloaded teams.
-
-### DevOps Myth-Busting
-
-When participants misunderstand DevOps, clarify:
-
-- DevOps does not replace Agile; it extends the definition of done to production success.
-- DevOps does not replace ITIL; it often automates and improves ITIL processes.
-- DevOps does not mean NoOps; Operations capabilities become more embedded and self-service.
-- DevOps is not just automation; it also requires shared goals, trust, feedback, and learning.
-- DevOps is not only for startups; enterprises often need it more because of scale, complexity, and risk.
+| Week | Reading | Participant Workbook Focus | Teacher Focus |
+|---|---|---|---|
+| 1 | Chapters 1-10 | The mess, silos, invisible work, and Four Types of Work | Help participants see system dysfunction without blame |
+| 2 | Chapters 11-20 | Flow, bottlenecks, WIP, Theory of Constraints, Kanban | Help participants identify constraints and queues |
+| 3 | Chapters 21-29 | Feedback loops, quality, Dev/Ops, security shifting left | Help participants redesign delayed feedback |
+| 4 | Chapters 30-35 | Learning, resilience, business alignment, 30-day proposal | Help participants create realistic improvement experiments |
 
 ---
 
-# Week 1 Facilitator Guide
+# Facilitation Moves
+
+## Reframe Complaints into System Observations
+
+| If Participants Say... | Ask Instead... |
+|---|---|
+| “Security blocks everything.” | “Where should security input happen earlier?” |
+| “Operations slows us down.” | “What does Operations need earlier to support this safely?” |
+| “Developers throw things over the wall.” | “What incentives or handoffs make that behavior likely?” |
+| “The PMO just wants dates.” | “What visibility would make plans more realistic?” |
+| “Everything is urgent.” | “Who decides priority, and what work should stop?” |
+| “We need more people.” | “What is the constraint, and are we protecting it?” |
+
+## Questions That Move the Conversation Forward
+
+- “Can you give one concrete example?”
+- “Where did that work wait?”
+- “Who discovered the problem, and when?”
+- “What was invisible until it became urgent?”
+- “What would have prevented the emergency?”
+- “What can be tested in 30 days?”
+
+---
+
+# Week 1 Lesson Plan
 
 ## Theme
 
@@ -168,79 +119,145 @@ The mess, silos, invisible work, and the Four Types of Work.
 
 Chapters **1-10**.
 
-## Session Goal
+## Participant Workbook Sections
 
-Help participants recognize dysfunction without blaming individuals. They should see how invisible work, unplanned work, unclear ownership, and hero culture create system failure.
+- Week 1: The Mess and the Four Types of Work
+- Four Types of Work table
+- Role-based reflection
+- Week 1 written assignment
+
+## Learning Objectives
+
+By the end of the session, participants should be able to:
+
+- Identify symptoms of a broken work system.
+- Define the Four Types of Work.
+- Explain why invisible work creates overcommitment.
+- Describe how unplanned work steals capacity from planned work.
+- Identify one example of hero culture.
+
+## Materials
+
+- Week 1 slides.
+- Participant workbook.
+- Timer.
+- Whiteboard or sticky notes.
+- Optional: printed Four Types of Work worksheet.
+
+## Preparation Notes
+
+Before class, choose one simple example of work that is often invisible, such as access requests, environment setup, production support, incident follow-up, defect rework, or status reporting.
+
+## 60-Minute Agenda
+
+| Time | Activity | Notes |
+|---:|---|---|
+| 0-5 | Welcome and ground rules | Read ground rules briefly |
+| 5-10 | Opening question | Ask for familiar scenes |
+| 10-20 | Reading recap | Focus on patterns, not plot summary |
+| 20-30 | Mini-lesson | Four Types of Work |
+| 30-45 | Workbook activity | Classify recent work |
+| 45-55 | Role share-out | Ask each role what was invisible |
+| 55-60 | Close | Assign Week 1 reflection |
+
+## Opening Script
+
+> Today we are using the book as a mirror. We are not asking who is good or bad in the story. We are asking what system of work creates the behavior we see: hidden work, unplanned work, unclear priorities, overloaded people, and work bypassing normal process.
 
 ## Opening Question
 
-> What scene from the first ten chapters felt most familiar to your work environment?
+> What scene from Chapters 1-10 felt most familiar to your work environment?
 
-## Key Teaching Points
+Write three to five responses on the board. Label them as system conditions where possible.
 
-### 1. The Problem Is the System of Work
+## Mini-Lesson: The Four Types of Work
 
-People are busy and trying hard, yet the system still fails. This is the foundation for the whole course.
+Teach these four types:
 
-Emphasize:
+1. **Business Projects** — visible initiatives tied to business outcomes.
+2. **Internal IT Projects** — infrastructure, modernization, resilience, automation, platforms.
+3. **Changes** — releases, configuration changes, access changes, system updates.
+4. **Unplanned Work** — incidents, escalations, rework, defects, emergencies, urgent interrupts.
 
-- Busy does not equal effective.
-- Urgency can hide poor prioritization.
-- Invisible work still consumes capacity.
-- Unplanned work steals time from planned work.
-- Local teams may optimize their own goals while harming the enterprise.
+Teaching statement:
 
-### 2. The Four Types of Work Reveal Capacity
+> If we only manage official project work, we are not managing the full demand on the system.
 
-Ask participants to categorize work, not just projects. Many organizations only manage official project demand while ignoring internal work, changes, and unplanned work.
+## Workbook Activity: Work Visibility Table
 
-### 3. Hero Culture Creates Fragility
+Ask participants to fill in the Week 1 work classification table.
 
-A hero may save the day, but dependency on heroes means the system is unhealthy.
+Prompt:
 
-## Activity: Map the Work
+> List three to five real work items from the last two weeks. Include work that would not appear on an official project roadmap.
 
-Ask participants to list work from the last two weeks and categorize it.
+Circulate and ask:
 
-| Work Item | Type | Planned or Unplanned? | Who Requested It? | Who Was Impacted? |
-|---|---|---|---|---|
-|  | Business Project / Internal IT / Change / Unplanned |  |  |  |
+- “Was this planned or unplanned?”
+- “Who requested it?”
+- “Who was impacted?”
+- “Would leadership see this work?”
+- “Did it displace something else?”
 
-## Discussion Prompts
+## Expected Participant Responses
 
-- What work was not visible in planning?
-- What work interrupted planned priorities?
-- Which work created rework?
-- Which work depended on one person?
-- What work had business impact but was treated as “just IT”? 
+Expect participants to identify:
 
-## Role-Based Prompts
+- Incident response.
+- Emergency requests.
+- Access issues.
+- Rework.
+- Production support.
+- Meetings and status updates.
+- Clarification work.
+- Manual reviews.
+- Dependency chasing.
 
-- **PM:** Where does your plan assume more capacity than actually exists?
-- **PO:** How do competing priorities enter the backlog?
-- **Developer:** What interrupts focused work most often?
-- **BA:** Where do unclear requirements create downstream rework?
-- **Ops:** What work arrives late and urgent?
-- **Security:** Where are controls discovered after design decisions are already made?
-- **Leader:** What important work is missing from dashboards or reports?
+## Common Misconceptions
 
-## Common Misunderstandings
-
-| Misunderstanding | Correction |
+| Misconception | Correction |
 |---|---|
-| “The problem is bad people.” | The book is showing a bad system producing predictable behavior. |
-| “We just need better communication.” | Communication problems usually point to unclear flow, ownership, or feedback. |
-| “Unplanned work is unavoidable.” | Some is unavoidable, but repeated unplanned work is a signal to improve the system. |
+| “This is just bad communication.” | Communication issues usually point to unclear ownership, flow, priority, or feedback. |
+| “Unplanned work is just part of the job.” | Some is unavoidable, but repeated unplanned work is a signal to improve the system. |
+| “Hero culture is good because heroes solve problems.” | Heroes may save the day, but reliance on heroes makes the system fragile. |
 
-## Close
+## Assessment Check
 
-Ask each participant to write one sentence:
+Ask participants to write in the workbook:
 
 > One type of work we do not make visible enough is ______.
 
+## Homework
+
+Participants complete the Week 1 assignment:
+
+> Where does my organization rely on heroics instead of reliable systems?
+
+## Facilitator Notes After Session
+
+Use this space after class.
+
+**What examples came up repeatedly?**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+**What work was most invisible?**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+**What should I reinforce next week?**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
 ---
 
-# Week 2 Facilitator Guide
+# Week 2 Lesson Plan
 
 ## Theme
 
@@ -250,298 +267,418 @@ The First Way, constraints, WIP, queue time, and Kanban.
 
 Chapters **11-20**.
 
-## Session Goal
+## Participant Workbook Sections
 
-Help participants understand that flow improves when work is visible, WIP is limited, and constraints are protected.
+- Week 2: The First Way, Constraints, WIP, and Kanban
+- Theory of Constraints
+- Flow map worksheet
+- Week 2 assignment
+
+## Learning Objectives
+
+By the end of the session, participants should be able to:
+
+- Explain the First Way: Flow.
+- Identify a constraint in a work process.
+- Explain why high utilization increases queue time.
+- Describe why WIP limits improve flow.
+- Create a simple flow map.
+
+## Materials
+
+- Week 2 slides.
+- Participant workbook.
+- Whiteboard or virtual board.
+- Optional: sticky notes for process steps.
+
+## Preparation Notes
+
+Choose one workflow example before class. Keep it simple: request intake to fulfillment, change request to deployment, access request to approval, or defect to resolution.
+
+## 60-Minute Agenda
+
+| Time | Activity | Notes |
+|---:|---|---|
+| 0-5 | Welcome and Week 1 bridge | Ask what work they noticed after Week 1 |
+| 5-12 | Reading recap | Ask what changed when work became visible |
+| 12-25 | Mini-lesson | First Way, TOC, WIP, queue time |
+| 25-45 | Workbook activity | Flow map one process |
+| 45-55 | Share-out | Identify constraints and waits |
+| 55-60 | Close | Assign Week 2 flow map refinement |
 
 ## Opening Question
 
 > What changed once Bill’s team started making work visible?
 
-## Key Teaching Points
+## Mini-Lesson: Flow and Constraints
 
-### 1. The First Way: Flow
+Teach:
 
-Flow is about moving work from left to right: business need to customer value.
+- Work flows from business need to customer value.
+- A constraint limits the throughput of the whole system.
+- Protecting the constraint improves system flow.
+- High utilization creates long queues.
+- WIP limits help work finish before more work starts.
 
-```mermaid
-flowchart LR
-    A[Business Need] --> B[Analysis] --> C[Build] --> D[Test] --> E[Deploy] --> F[Operate] --> G[Customer Value]
-```
+Teaching statement:
 
-### 2. Theory of Constraints
+> A 30-minute task can have a two-week lead time if it crosses several overloaded queues.
 
-Teach the five steps:
+## Theory of Constraints Teaching Notes
 
-1. Identify the constraint.
-2. Exploit the constraint.
-3. Subordinate all other work to the constraint.
-4. Elevate the constraint.
-5. Repeat because the constraint will move.
+1. **Identify** the constraint.
+2. **Exploit** the constraint.
+3. **Subordinate** other work to the constraint.
+4. **Elevate** the constraint.
+5. **Repeat** because the constraint moves.
 
-### 3. Brent Is a Constraint, Not Just a Person
+Do not let participants jump immediately to “hire more people.” First, ask whether the constraint is being protected or overloaded with work others could do.
 
-Participants may focus on Brent as an individual. Redirect them to what Brent represents:
+## Workbook Activity: Flow Map
 
-- Concentrated knowledge
-- Undocumented systems
-- Poor intake
-- Escalation culture
-- Overloaded specialist capacity
-- Work that bypasses normal prioritization
+Ask participants to draw one process from request to outcome.
 
-### 4. High Utilization Creates Long Queues
+Required labels:
 
-Use this teaching statement:
+- Start point.
+- End point.
+- Handoffs.
+- Waiting points.
+- Rework points.
+- Constraint.
+- One possible WIP limit.
 
-> The more overloaded a person or team is, the longer every new request waits. Full utilization looks efficient locally but creates system-wide delay.
+## Expected Participant Responses
 
-## Activity: Find the Constraint
+Common constraints may include:
 
-Ask participants to map one workflow.
+- One expert.
+- Approval board.
+- Security review.
+- Environment provisioning.
+- Testing queue.
+- Vendor response.
+- Change window.
+- Product decision.
+- Requirements clarification.
 
-```mermaid
-flowchart LR
-    A[Request] --> B[Intake] --> C[Analysis] --> D[Build/Configure] --> E[Test/Review] --> F[Approval] --> G[Deploy/Complete] --> H[Operate/Support]
-```
+## Common Misconceptions
 
-Mark:
-
-- Queue points
-- Rework points
-- Overloaded teams
-- Approval gates
-- Hidden handoffs
-- Late security or operational input
-
-## Discussion Prompts
-
-- Where does work wait?
-- Where does it get reworked?
-- Which person, team, tool, or vendor is the constraint?
-- What work should be routed away from the constraint?
-- What WIP limit could help?
-
-## Role-Based Prompts
-
-- **PM:** What dependency most often delays your project?
-- **PO:** What work should be deprioritized to improve flow?
-- **Developer:** What creates the most waiting time?
-- **BA:** Where do requirements wait for clarification?
-- **Ops:** Which recurring requests should be self-service?
-- **Security:** Which controls can be standardized?
-- **Leader:** What work needs to stop so the most important work can finish?
-
-## Common Misunderstandings
-
-| Misunderstanding | Correction |
+| Misconception | Correction |
 |---|---|
-| “The answer is to hire more people.” | First understand the constraint. More people can add more coordination cost. |
-| “Everyone should be fully utilized.” | Full utilization creates queues and delays. Slack is necessary for flow and improvement. |
+| “The answer is more people.” | First identify and protect the constraint. More people can add more coordination cost. |
+| “Everyone should be fully utilized.” | Full utilization creates queues and delays. Slack enables flow and improvement. |
 | “Kanban is just a task board.” | Kanban is a visibility and WIP-control system. |
 
-## Close
+## Assessment Check
 
-Ask each participant to complete:
+Ask participants to complete:
 
 > Our likely constraint is ______ because ______.
 
+## Homework
+
+Participants refine their flow map and identify one realistic improvement.
+
+## Facilitator Notes After Session
+
+**Most common constraints identified:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+**Processes with longest wait time:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+**Potential 30-day experiments mentioned:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
 ---
 
-# Week 3 Facilitator Guide
+# Week 3 Lesson Plan
 
 ## Theme
 
-The Second Way, feedback loops, quality at the source, security, and shared goals.
+The Second Way, feedback loops, quality at the source, and security shifting left.
 
 ## Reading Assignment
 
 Chapters **21-29**.
 
-## Session Goal
+## Participant Workbook Sections
 
-Help participants identify delayed feedback and redesign work so problems are detected earlier.
+- Week 3: The Second Way, Feedback Loops, Quality, and Security
+- Feedback Loop Worksheet
+- Week 3 written assignment
+
+## Learning Objectives
+
+By the end of the session, participants should be able to:
+
+- Explain the Second Way: Feedback.
+- Identify a delayed feedback loop.
+- Explain why late feedback creates rework.
+- Describe quality at the source.
+- Explain how security can become an enabler.
+
+## Materials
+
+- Week 3 slides.
+- Participant workbook.
+- Feedback Loop Worksheet.
+- Optional: markers or virtual board.
+
+## Preparation Notes
+
+Prepare one example of late feedback, such as a defect found in production, a security issue found during final review, an operational issue discovered after deployment, or a requirement misunderstanding found during UAT.
+
+## 60-Minute Agenda
+
+| Time | Activity | Notes |
+|---:|---|---|
+| 0-5 | Welcome and Week 2 bridge | Ask where work waited |
+| 5-15 | Reading recap | Focus on Dev/Ops/Security changes |
+| 15-25 | Mini-lesson | Second Way and quality at the source |
+| 25-45 | Workbook activity | Feedback Loop Worksheet |
+| 45-55 | Share-out | Identify earlier feedback opportunities |
+| 55-60 | Close | Assign Week 3 reflection |
 
 ## Opening Question
 
-> Where in your work do problems get discovered later than they should?
+> Where in your work are problems discovered later than they should be?
 
-## Key Teaching Points
+## Mini-Lesson: Feedback
 
-### 1. The Second Way: Feedback
+Teach:
 
-Feedback moves right to left so earlier work can improve.
+- Feedback moves right to left across the value stream.
+- The earlier a problem is discovered, the cheaper and safer it is to fix.
+- Quality cannot be inspected only at the end.
+- Security, QA, Operations, and Support should be part of learning, not only approval.
 
-```mermaid
-flowchart LR
-    A[Business Need] --> B[Analysis] --> C[Build] --> D[Test] --> E[Deploy] --> F[Operate] --> G[Customer Value]
-    G -. outcomes .-> A
-    F -. telemetry .-> C
-    E -. deployment feedback .-> D
-    D -. test feedback .-> C
-    C -. feasibility feedback .-> B
-```
+Teaching statement:
 
-### 2. Quality at the Source
+> A late gate catches problems after the organization has already paid for the wrong work.
 
-Quality cannot be inspected only at the end. It must be built in through requirements, design, coding, testing, deployment, monitoring, and support.
+## Workbook Activity: Feedback Loop Review
 
-### 3. Security as an Enabler
+Ask participants to complete the worksheet for one process.
 
-Security improves flow when it provides earlier input, reusable standards, automated checks, and clear risk guidance.
+Key prompts:
 
-### 4. Shared Goals and Shared Pain
+- Where does the problem start?
+- Where is it discovered?
+- Who receives the feedback?
+- Who needs the feedback earlier?
+- What can be automated, standardized, or made visible?
 
-Development, Operations, Security, QA, and Support improve when they share outcomes instead of optimizing separately.
+## Expected Participant Responses
 
-## Activity: Feedback Loop Review
+Participants may identify:
 
-| Question | Response |
+- Security review occurs too late.
+- Requirements defects found in UAT.
+- Operational readiness issues discovered at go-live.
+- Support trends not fed back into product planning.
+- Testing failures not visible to upstream teams.
+- Incident learnings not converted into backlog work.
+
+## Common Misconceptions
+
+| Misconception | Correction |
 |---|---|
-| What process are we reviewing? |  |
-| Where do problems usually start? |  |
-| Where are they discovered? |  |
-| Who receives feedback? |  |
-| Who needs feedback earlier? |  |
-| What feedback is too slow? |  |
-| What can be automated or standardized? |  |
+| “Feedback means more meetings.” | Good feedback can be automated, visual, asynchronous, or built into workflow. |
+| “Security must be the final gate.” | Some gates may remain, but earlier standards and patterns reduce rework. |
+| “Incidents mean someone failed.” | Incidents reveal system weaknesses and learning opportunities. |
 
-## Discussion Prompts
+## Assessment Check
 
-- What do we discover too late?
-- Which feedback comes from customers, incidents, telemetry, support, QA, security, or audit?
-- What feedback is ignored?
-- What manual review could become an automated check?
-- What requirement should be added earlier?
-
-## Role-Based Prompts
-
-- **PM:** Where should feedback checkpoints be added to the plan?
-- **PO:** How do you know a feature solved the business problem?
-- **Developer:** What test or review would catch issues earlier?
-- **BA:** What requirement questions would prevent rework?
-- **Ops:** What production signals should feed back into design?
-- **Security:** What controls can become patterns or automated checks?
-- **QA:** Which defect pattern keeps repeating?
-- **Support:** Which recurring tickets should influence product decisions?
-
-## Common Misunderstandings
-
-| Misunderstanding | Correction |
-|---|---|
-| “Feedback means more meetings.” | Good feedback can be automated, visual, asynchronous, or embedded in workflow. |
-| “Security must be a final gate.” | Some gates may remain, but earlier design guidance reduces late rework. |
-| “Incidents mean someone failed.” | Incidents reveal system weaknesses and opportunities for learning. |
-
-## Close
-
-Ask each participant to complete:
+Ask participants to write:
 
 > One thing we discover too late is ______. An earlier feedback loop could be ______.
 
+## Homework
+
+Participants complete the Week 3 written response:
+
+> What problem in my role do we usually discover too late?
+
+## Facilitator Notes After Session
+
+**Most common delayed feedback loops:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+**Common security, quality, or operations late findings:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+**Ideas to carry into Week 4 capstone:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
 ---
 
-# Week 4 Facilitator Guide
+# Week 4 Lesson Plan
 
 ## Theme
 
-The Third Way, continual learning, resilience, Toyota Kata, and business alignment.
+The Third Way, continual learning, resilience, and business alignment.
 
 ## Reading Assignment
 
 Chapters **30-35**.
 
-## Session Goal
+## Participant Workbook Sections
 
-Help participants synthesize the book and create practical 30-day improvement proposals.
+- Week 4: The Third Way, Learning, Resilience, and Business Alignment
+- Improvement Kata Starter
+- 30-Day Improvement Proposal
+- Final Reflection Questions
+
+## Learning Objectives
+
+By the end of the session, participants should be able to:
+
+- Explain the Third Way.
+- Describe why learning must be part of daily work.
+- Connect nonfunctional requirements to business outcomes.
+- Create a realistic 30-day improvement proposal.
+- Identify what leadership support is needed.
+
+## Materials
+
+- Week 4 slides.
+- Participant workbook.
+- Capstone proposal worksheet.
+- Timer for 2-minute participant pitches.
+
+## Preparation Notes
+
+Before Week 4, review participant ideas from Weeks 1-3. Group common themes:
+
+- Unplanned work.
+- Bottlenecks.
+- Late feedback.
+- Security/quality issues.
+- Operational readiness.
+- Prioritization problems.
+- Leadership visibility.
+
+## 60-Minute Agenda
+
+| Time | Activity | Notes |
+|---:|---|---|
+| 0-5 | Welcome and course recap | Connect the Three Ways |
+| 5-15 | Reading recap | Ask what changed by the end of the book |
+| 15-25 | Mini-lesson | Third Way, learning, resilience |
+| 25-40 | Capstone work time | Complete 30-day proposal |
+| 40-55 | 2-minute improvement pitches | Keep strict time |
+| 55-60 | Close | Capture themes and next steps |
 
 ## Opening Question
 
-> What is one behavior that changed by the end of the book?
+> What behavior changed by the end of the book?
 
-## Key Teaching Points
+## Mini-Lesson: Learning and Experimentation
 
-### 1. The Third Way: Learning and Experimentation
+Teach:
 
-The Third Way is about building a culture where teams can experiment, learn from failure, practice recovery, and improve continuously.
+- Learning must be designed into daily work.
+- Improvement should happen through small, repeated experiments.
+- Resilience improves when recovery is practiced safely.
+- Nonfunctional requirements are business requirements.
+- IT becomes a business partner when it protects customer value, not just systems.
 
-### 2. Toyota Kata
+Teaching statement:
 
-Toyota Kata is useful because it turns improvement into a practiced routine, not an annual workshop.
+> The Third Way turns improvement from an event into a habit.
 
-```mermaid
-flowchart TD
-    A[Current Condition] --> B[Target Condition]
-    B --> C[Obstacles]
-    C --> D[Small Experiment]
-    D --> E[Study Result]
-    E --> C
-```
+## Capstone Activity: 30-Day Improvement Proposal
 
-### 3. Chaos Monkey and Resilience
+Participants complete:
 
-Chaos Monkey-style thinking means practicing failure in controlled ways so teams can recover safely during real incidents.
+1. Problem statement.
+2. Current impact.
+3. Book connection.
+4. Root cause.
+5. Proposed 30-day experiment.
+6. Expected outcome.
+7. Measurement.
+8. Support needed.
 
-### 4. Nonfunctional Requirements Are Business Requirements
+## Expected Participant Proposals
 
-Reliability, security, operability, scalability, maintainability, and recoverability are not side issues. They determine whether business value survives contact with production.
+Examples:
 
-## Activity: 30-Day Improvement Proposal
+- Add operational readiness questions to project intake.
+- Add security review patterns to design templates.
+- Create a WIP limit for active requests.
+- Create a recurring review of unplanned work.
+- Document a process dependent on one expert.
+- Add rollback planning to change review.
+- Feed support ticket trends into planning.
+- Add production telemetry requirements to acceptance criteria.
 
-Have participants complete the template.
+## Common Misconceptions
 
-| Area | Response |
+| Misconception | Correction |
 |---|---|
-| My role |  |
-| Recurring problem |  |
-| Book concept |  |
-| Root cause |  |
-| People impacted |  |
-| 30-day experiment |  |
-| Support needed |  |
-| Success measure |  |
+| “Continuous improvement requires a big transformation.” | Start with small experiments and regular learning cycles. |
+| “Failure practice is too risky.” | Start in low-risk environments and practice recovery safely. |
+| “Culture change is abstract.” | Culture changes when repeated behaviors, incentives, and routines change. |
 
-## Discussion Prompts
+## Assessment Check
 
-- What improvement can be tested without waiting for a major transformation?
-- What small change would reduce unplanned work?
-- What could improve flow?
-- What feedback could be faster?
-- What practice would build resilience?
-- What should leadership support?
+Each participant gives a 2-minute pitch:
 
-## Role-Based Prompts
+1. Problem.
+2. Book concept.
+3. 30-day experiment.
+4. Success measure.
 
-- **PM:** How can planning reflect real capacity and hidden work?
-- **PO:** What can be deprioritized to protect flow?
-- **Developer:** What technical debt creates repeated pain?
-- **BA:** What discovery question should become standard?
-- **Ops:** What manual task should be automated or standardized?
-- **Security:** What control can shift left?
-- **Leader:** What behavior should be rewarded to reduce firefighting?
+## Final Close Script
 
-## Common Misunderstandings
+> The value of this course is not whether we remember every character or chapter. The value is whether we can now see our own work system more clearly. If we can make one part of the system more visible, safer, faster, or easier to learn from, then the study has done its job.
 
-| Misunderstanding | Correction |
-|---|---|
-| “Continuous improvement requires a big program.” | Start with small experiments and regular learning cycles. |
-| “Failure practice is too risky.” | Practice safely in controlled, low-risk environments first. |
-| “Culture change is abstract.” | Culture changes when repeated behaviors, incentives, and management routines change. |
+## Facilitator Notes After Session
 
-## Close
+**Most promising improvement proposals:**
 
-Each participant shares a 2-minute improvement pitch:
+______________________________________________________________________________
 
-1. Problem
-2. Book concept
-3. 30-day experiment
-4. Success measure
+______________________________________________________________________________
+
+**Themes leadership should hear:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+**Suggested next step:**
+
+______________________________________________________________________________
+
+______________________________________________________________________________
 
 ---
 
-# Evaluation Approach
+# Assessment and Evaluation
 
-This course should be evaluated through participation, reflection, and practical application rather than a traditional exam.
+Use lightweight assessment. This is an applied study series, not a formal exam.
 
 ## Suggested Evaluation Categories
 
@@ -549,8 +686,8 @@ This course should be evaluated through participation, reflection, and practical
 |---|---:|
 | Reading completion | 20% |
 | Weekly participation | 25% |
-| Reflection assignments | 25% |
-| Final role application brief | 15% |
+| Workbook completion | 25% |
+| Role application brief | 15% |
 | 30-day improvement proposal | 15% |
 
 ## Capstone Rubric
@@ -558,87 +695,71 @@ This course should be evaluated through participation, reflection, and practical
 | Criteria | Strong | Acceptable | Needs Improvement |
 |---|---|---|---|
 | Problem clarity | Specific, real, well-defined | Understandable but broad | Vague or generic |
-| Book connection | Clearly tied to flow, feedback, constraints, work types, or learning | Some connection | Weak or missing |
-| Role application | Directly connected to participant’s role | Somewhat connected | Not role-specific |
-| Practicality | Can be tested in 30 days | Possible with refinement | Too broad or unrealistic |
-| Measurement | Has simple success indicators | General expected outcome | No measurement |
-| Systems thinking | Addresses root cause or process condition | Addresses symptoms somewhat | Focuses on blame only |
+| Book connection | Clearly tied to a course concept | Some connection | Weak or missing |
+| Role application | Directly connected to participant role | Somewhat connected | Not role-specific |
+| Practicality | Testable in 30 days | Possible with refinement | Too broad or unrealistic |
+| Measurement | Simple success indicators | General expected outcome | No measurement |
+| Systems thinking | Addresses process/root cause | Addresses symptoms somewhat | Focuses on blame only |
 
 ---
 
-# Facilitator Phrases
+# Slide Deck Teaching Map
 
-## Starting the Course
+Use the companion slide deck as a visual anchor. Do not read slides verbatim.
 
-> This study is not about proving whether our organization is good or bad. It is about using the book as a mirror. We are looking for patterns: hidden work, bottlenecks, unclear priorities, late feedback, and hero culture.
-
-## Redirecting Blame
-
-> Let’s step back from the person or team and look at the system condition that makes that behavior likely.
-
-## Making Answers More Specific
-
-> Can you give one example where that happened?
-
-## Moving Toward Action
-
-> What is the smallest version of that improvement we could test in 30 days?
-
-## Connecting to Business Value
-
-> How does this issue affect speed, quality, risk, customer experience, cost, or employee morale?
+| Slide Range | Use |
+|---|---|
+| 1-3 | Course framing and facilitator stance |
+| 4-6 | Week 1 teaching and activity |
+| 7-10 | Week 2 teaching and activity |
+| 11-13 | Week 3 teaching and activity |
+| 14-16 | Week 4 teaching and capstone |
+| 17-19 | Role prompts, rubric, and closing |
 
 ---
 
-# Optional Knowledge Checks
+# Final Facilitator Debrief Template
 
-## Week 1
+After the course, summarize the following for sponsors or leaders.
 
-1. What are the Four Types of Work?
-2. Why is unplanned work so damaging?
-3. What is hero culture?
-4. What work is often invisible to leadership?
+## Common Sources of Unplanned Work
 
-## Week 2
+______________________________________________________________________________
 
-1. What is the First Way?
-2. What are the five Theory of Constraints steps?
-3. Why does high utilization create long queues?
-4. How does Kanban help manage WIP?
+______________________________________________________________________________
 
-## Week 3
+## Major Bottlenecks or Constraints
 
-1. What is the Second Way?
-2. What does quality at the source mean?
-3. How can security shift left?
-4. What is one example of useful production feedback?
+______________________________________________________________________________
 
-## Week 4
+______________________________________________________________________________
 
-1. What is the Third Way?
-2. How does Toyota Kata support continuous improvement?
-3. Why are nonfunctional requirements business requirements?
-4. What makes a good 30-day improvement proposal?
+## Missing Feedback Loops
 
----
+______________________________________________________________________________
 
-# Final Facilitator Debrief
+______________________________________________________________________________
 
-After the final session, summarize:
+## Repeated Security, Quality, or Operational Findings
 
-- Common sources of unplanned work
-- Major bottlenecks or constraints
-- Missing feedback loops
-- Repeated security, quality, or operational late-stage findings
-- Candidate 30-day improvement experiments
-- Leadership recommendations
+______________________________________________________________________________
 
-Suggested final output:
+______________________________________________________________________________
 
-> A small improvement backlog based on participant proposals.
+## Candidate 30-Day Experiments
+
+______________________________________________________________________________
+
+______________________________________________________________________________
+
+## Leadership Recommendations
+
+______________________________________________________________________________
+
+______________________________________________________________________________
 
 ---
 
-# Closing Statement
+# Closing Reminder for Facilitators
 
-> The Phoenix Project is not really a story about one failed IT project. It is a story about how organizations create chaos when work is invisible, priorities are unclear, feedback is slow, and learning is sacrificed for urgency. The value of this study is whether we can now see our own work system more clearly and improve one part of it from where we sit.
+This course is successful when participants stop seeing *The Phoenix Project* as a story about another company and begin seeing it as a practical language for improving their own work system.
